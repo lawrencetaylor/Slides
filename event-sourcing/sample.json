@@ -1,0 +1,317 @@
+{
+  "title": "Event stream 'Booking-123'",
+  "id": "http://0.0.0.0:2113/streams/Booking-123",
+  "updated": "2016-07-15T14:16:14.878134Z",
+  "streamId": "Booking-123",
+  "author": {
+    "name": "EventStore"
+  },
+  "headOfStream": true,
+  "selfUrl": "http://0.0.0.0:2113/streams/Booking-123",
+  "eTag": "20;248368668",
+  "links": [
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123",
+      "relation": "self"
+    },
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123/head/backward/20",
+      "relation": "first"
+    },
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123/21/forward/20",
+      "relation": "previous"
+    },
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123/metadata",
+      "relation": "metadata"
+    }
+  ],
+  "entries": [
+    {
+      "title": "20@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/20",
+      "updated": "2016-07-15T14:16:14.878134Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "LeadPassengerModified",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/20",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/20",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "19@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/19",
+      "updated": "2016-07-15T14:16:14.875967Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "ReceiptSent",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/19",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/19",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "18@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/18",
+      "updated": "2016-07-15T14:16:14.873519Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Confirmation",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/18",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/18",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "17@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/17",
+      "updated": "2016-07-15T14:16:14.870097Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "PaymentRecieved",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/17",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/17",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "16@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/16",
+      "updated": "2016-07-15T14:16:14.866108Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Created",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/16",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/16",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "15@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/15",
+      "updated": "2016-07-15T14:12:45.421975Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "LeadPassengerModified",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/15",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/15",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "14@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/14",
+      "updated": "2016-07-15T14:12:45.419859Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "ReceiptSent",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/14",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/14",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "13@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/13",
+      "updated": "2016-07-15T14:12:45.417986Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Confirmation",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/13",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/13",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "12@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/12",
+      "updated": "2016-07-15T14:12:45.414697Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "PaymentRecieved",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/12",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/12",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "11@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/11",
+      "updated": "2016-07-15T14:12:45.409993Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Created",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/11",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/11",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "10@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/10",
+      "updated": "2016-07-15T14:12:13.552971Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "LeadPassengerModified",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/10",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/10",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "9@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/9",
+      "updated": "2016-07-15T14:12:13.550612Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "ReceiptSent",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/9",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/9",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "8@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/8",
+      "updated": "2016-07-15T14:12:13.547699Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Confirmation",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/8",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/8",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "7@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/7",
+      "updated": "2016-07-15T14:12:13.543794Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "PaymentRecieved",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/7",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/7",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "title": "6@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/6",
+      "updated": "2016-07-15T14:12:13.52823Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Created",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/6",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/6",
+          "relation": "alternate"
+        }
+      ]
+    }
+  ]
+}

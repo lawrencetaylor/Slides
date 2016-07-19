@@ -1,0 +1,1 @@
+I believe the problem you are describing boils down to how to convert an `seq<Async>` to an `Async<seq>`.

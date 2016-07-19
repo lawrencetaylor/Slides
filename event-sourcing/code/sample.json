@@ -1,0 +1,620 @@
+{
+  "title": "Event stream 'Booking-123'",
+  "id": "http://0.0.0.0:2113/streams/Booking-123",
+  "updated": "2016-07-15T14:19:47.0525Z",
+  "streamId": "Booking-123",
+  "author": {
+    "name": "EventStore"
+  },
+  "headOfStream": true,
+  "selfUrl": "http://0.0.0.0:2113/streams/Booking-123",
+  "eTag": "40;248368668",
+  "links": [
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123",
+      "relation": "self"
+    },
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123/head/backward/20",
+      "relation": "first"
+    },
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123/0/forward/20",
+      "relation": "last"
+    },
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123/20/backward/20",
+      "relation": "next"
+    },
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123/41/forward/20",
+      "relation": "previous"
+    },
+    {
+      "uri": "http://0.0.0.0:2113/streams/Booking-123/metadata",
+      "relation": "metadata"
+    }
+  ],
+  "entries": [
+    {
+      "eventId": "4ffd4706-c7ba-4bc3-a17d-c4b0661e6440",
+      "eventType": "LeadPassengerModified",
+      "eventNumber": 40,
+      "data": "{\n  \"Case\": \"LeadPassengerModified\",\n  \"Fields\": [\n    \"Taylor\"\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 40,
+      "positionStreamId": "Booking-123",
+      "title": "40@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/40",
+      "updated": "2016-07-15T14:19:47.0525Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "LeadPassengerModified",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/40",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/40",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "9fc0c2bc-72f4-433d-8c9c-6309b3d66c05",
+      "eventType": "ReceiptSent",
+      "eventNumber": 39,
+      "data": "{\n  \"Case\": \"ReceiptSent\"\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 39,
+      "positionStreamId": "Booking-123",
+      "title": "39@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/39",
+      "updated": "2016-07-15T14:19:47.050124Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "ReceiptSent",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/39",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/39",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "63433a08-550e-4b39-a797-303f86b9aa26",
+      "eventType": "Confirmation",
+      "eventNumber": 38,
+      "data": "{\n  \"Case\": \"Confirmation\",\n  \"Fields\": [\n    {\n      \"Case\": \"SupplierRef\",\n      \"Fields\": [\n        \"ABC\"\n      ]\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 38,
+      "positionStreamId": "Booking-123",
+      "title": "38@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/38",
+      "updated": "2016-07-15T14:19:47.048102Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Confirmation",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/38",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/38",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "34bda07d-44cb-4ab4-ba75-dd2207b71c1b",
+      "eventType": "PaymentRecieved",
+      "eventNumber": 37,
+      "data": "{\n  \"Case\": \"PaymentRecieved\",\n  \"Fields\": [\n    {\n      \"Case\": \"GBP\",\n      \"Fields\": [\n        25.0\n      ]\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 37,
+      "positionStreamId": "Booking-123",
+      "title": "37@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/37",
+      "updated": "2016-07-15T14:19:47.04394Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "PaymentRecieved",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/37",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/37",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "1c24e332-78dc-4ae9-83e4-81bf336c0a5c",
+      "eventType": "Created",
+      "eventNumber": 36,
+      "data": "{\n  \"Case\": \"Created\",\n  \"Fields\": [\n    {\n      \"LeadPassengerSurname\": \"Tailor\",\n      \"Email\": \"client@domain.com\",\n      \"BookingCost\": 100.0\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 36,
+      "positionStreamId": "Booking-123",
+      "title": "36@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/36",
+      "updated": "2016-07-15T14:19:47.037426Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Created",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/36",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/36",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "f6c8a62e-4327-4789-97da-81be8f34d474",
+      "eventType": "LeadPassengerModified",
+      "eventNumber": 35,
+      "data": "{\n  \"Case\": \"LeadPassengerModified\",\n  \"Fields\": [\n    \"Taylor\"\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 35,
+      "positionStreamId": "Booking-123",
+      "title": "35@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/35",
+      "updated": "2016-07-15T14:19:33.822993Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "LeadPassengerModified",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/35",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/35",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "5bdc733f-f68d-4435-a5a4-b0ebbd9a7996",
+      "eventType": "ReceiptSent",
+      "eventNumber": 34,
+      "data": "{\n  \"Case\": \"ReceiptSent\"\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 34,
+      "positionStreamId": "Booking-123",
+      "title": "34@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/34",
+      "updated": "2016-07-15T14:19:33.820399Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "ReceiptSent",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/34",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/34",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "eb535745-f19e-4dcf-8cb5-1677ba4bbe81",
+      "eventType": "Confirmation",
+      "eventNumber": 33,
+      "data": "{\n  \"Case\": \"Confirmation\",\n  \"Fields\": [\n    {\n      \"Case\": \"SupplierRef\",\n      \"Fields\": [\n        \"ABC\"\n      ]\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 33,
+      "positionStreamId": "Booking-123",
+      "title": "33@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/33",
+      "updated": "2016-07-15T14:19:33.818519Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Confirmation",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/33",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/33",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "3348e719-7fb1-4503-85e6-f44843cc4192",
+      "eventType": "PaymentRecieved",
+      "eventNumber": 32,
+      "data": "{\n  \"Case\": \"PaymentRecieved\",\n  \"Fields\": [\n    {\n      \"Case\": \"GBP\",\n      \"Fields\": [\n        25.0\n      ]\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 32,
+      "positionStreamId": "Booking-123",
+      "title": "32@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/32",
+      "updated": "2016-07-15T14:19:33.815147Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "PaymentRecieved",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/32",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/32",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "ed2b02a6-b9a1-4f12-8683-3f8bbe965a0e",
+      "eventType": "Created",
+      "eventNumber": 31,
+      "data": "{\n  \"Case\": \"Created\",\n  \"Fields\": [\n    {\n      \"LeadPassengerSurname\": \"Tailor\",\n      \"Email\": \"client@domain.com\",\n      \"BookingCost\": 100.0\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 31,
+      "positionStreamId": "Booking-123",
+      "title": "31@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/31",
+      "updated": "2016-07-15T14:19:33.809739Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Created",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/31",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/31",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "5c5eca73-67a0-4ebd-81f7-e9f953cfdcd3",
+      "eventType": "LeadPassengerModified",
+      "eventNumber": 30,
+      "data": "{\n  \"Case\": \"LeadPassengerModified\",\n  \"Fields\": [\n    \"Taylor\"\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 30,
+      "positionStreamId": "Booking-123",
+      "title": "30@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/30",
+      "updated": "2016-07-15T14:19:27.65945Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "LeadPassengerModified",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/30",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/30",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "16b82bb4-483c-40ea-a934-9a70b036db89",
+      "eventType": "ReceiptSent",
+      "eventNumber": 29,
+      "data": "{\n  \"Case\": \"ReceiptSent\"\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 29,
+      "positionStreamId": "Booking-123",
+      "title": "29@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/29",
+      "updated": "2016-07-15T14:19:27.656106Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "ReceiptSent",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/29",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/29",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "134a7f37-ebeb-4056-8a6a-389aebbf3fbe",
+      "eventType": "Confirmation",
+      "eventNumber": 28,
+      "data": "{\n  \"Case\": \"Confirmation\",\n  \"Fields\": [\n    {\n      \"Case\": \"SupplierRef\",\n      \"Fields\": [\n        \"ABC\"\n      ]\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 28,
+      "positionStreamId": "Booking-123",
+      "title": "28@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/28",
+      "updated": "2016-07-15T14:19:27.650074Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Confirmation",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/28",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/28",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "d33c854a-4385-4660-8f79-3037df7e221a",
+      "eventType": "PaymentRecieved",
+      "eventNumber": 27,
+      "data": "{\n  \"Case\": \"PaymentRecieved\",\n  \"Fields\": [\n    {\n      \"Case\": \"GBP\",\n      \"Fields\": [\n        25.0\n      ]\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 27,
+      "positionStreamId": "Booking-123",
+      "title": "27@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/27",
+      "updated": "2016-07-15T14:19:27.640147Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "PaymentRecieved",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/27",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/27",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "21e912bc-dab1-420a-bf2c-7e4a04db59bf",
+      "eventType": "Created",
+      "eventNumber": 26,
+      "data": "{\n  \"Case\": \"Created\",\n  \"Fields\": [\n    {\n      \"LeadPassengerSurname\": \"Tailor\",\n      \"Email\": \"client@domain.com\",\n      \"BookingCost\": 100.0\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 26,
+      "positionStreamId": "Booking-123",
+      "title": "26@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/26",
+      "updated": "2016-07-15T14:19:27.634431Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Created",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/26",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/26",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "5097ac33-5eac-42dd-8772-ee8052213a6c",
+      "eventType": "LeadPassengerModified",
+      "eventNumber": 25,
+      "data": "{\n  \"Case\": \"LeadPassengerModified\",\n  \"Fields\": [\n    \"Taylor\"\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 25,
+      "positionStreamId": "Booking-123",
+      "title": "25@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/25",
+      "updated": "2016-07-15T14:17:22.729357Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "LeadPassengerModified",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/25",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/25",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "cc9795c4-30a2-47d7-a3e4-047e4be8a7d7",
+      "eventType": "ReceiptSent",
+      "eventNumber": 24,
+      "data": "{\n  \"Case\": \"ReceiptSent\"\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 24,
+      "positionStreamId": "Booking-123",
+      "title": "24@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/24",
+      "updated": "2016-07-15T14:17:22.727225Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "ReceiptSent",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/24",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/24",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "d1380a7c-ad0f-454c-85b1-297d5e737a79",
+      "eventType": "Confirmation",
+      "eventNumber": 23,
+      "data": "{\n  \"Case\": \"Confirmation\",\n  \"Fields\": [\n    {\n      \"Case\": \"SupplierRef\",\n      \"Fields\": [\n        \"ABC\"\n      ]\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 23,
+      "positionStreamId": "Booking-123",
+      "title": "23@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/23",
+      "updated": "2016-07-15T14:17:22.725398Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Confirmation",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/23",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/23",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "9b479fc6-4ced-47bd-b6c4-527207e8e808",
+      "eventType": "PaymentRecieved",
+      "eventNumber": 22,
+      "data": "{\n  \"Case\": \"PaymentRecieved\",\n  \"Fields\": [\n    {\n      \"Case\": \"GBP\",\n      \"Fields\": [\n        25.0\n      ]\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 22,
+      "positionStreamId": "Booking-123",
+      "title": "22@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/22",
+      "updated": "2016-07-15T14:17:22.722236Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "PaymentRecieved",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/22",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/22",
+          "relation": "alternate"
+        }
+      ]
+    },
+    {
+      "eventId": "c4bacc5e-e2cb-49b8-913f-07cdb8a36dcc",
+      "eventType": "Created",
+      "eventNumber": 21,
+      "data": "{\n  \"Case\": \"Created\",\n  \"Fields\": [\n    {\n      \"LeadPassengerSurname\": \"Tailor\",\n      \"Email\": \"client@domain.com\",\n      \"BookingCost\": 100.0\n    }\n  ]\n}",
+      "streamId": "Booking-123",
+      "isJson": true,
+      "isMetaData": false,
+      "isLinkMetaData": false,
+      "positionEventNumber": 21,
+      "positionStreamId": "Booking-123",
+      "title": "21@Booking-123",
+      "id": "http://0.0.0.0:2113/streams/Booking-123/21",
+      "updated": "2016-07-15T14:17:22.71851Z",
+      "author": {
+        "name": "EventStore"
+      },
+      "summary": "Created",
+      "links": [
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/21",
+          "relation": "edit"
+        },
+        {
+          "uri": "http://0.0.0.0:2113/streams/Booking-123/21",
+          "relation": "alternate"
+        }
+      ]
+    }
+  ]
+}
