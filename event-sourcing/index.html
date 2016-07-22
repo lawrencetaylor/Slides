@@ -70,7 +70,6 @@
 <p>July 2016</p>
 </section>
 <section >
-<section >
 <h3>Modifying state</h3>
 <br/>
 <table class="pre"><tr><td class="lines"><pre class="fssnip"><span class="l">1: </span>
@@ -132,8 +131,6 @@ Horrible SQL to do historical queries<br/>
 Now we have a dynamic type - or different tables for different types.<br/>
 </aside>
 </section>
-</section>
-<section >
 <section >
 <h3>What do we mean by a "booking"?</h3>
 <div class="fragment">
@@ -167,14 +164,12 @@ But we should endeavor to build software that embraces change.<br/>
 This is precisely what event sourcing allows us to do: design a system which encapsulates this volatility.<br/>
 </aside>
 </section>
-</section>
 <section >
 <h3>let us <em>define</em> an entity by the events that it experiences</h3>
 <div class="fragment">
 <p><img src="images/events.png" alt="Booking events" /></p>
 </div>
 </section>
-<section >
 <section >
 <h3>Demo</h3>
 </section>
@@ -221,13 +216,12 @@ This is precisely what event sourcing allows us to do: design a system which enc
 </tr>
 </table>
 </section>
-</section>
-<section >
 <section >
 <h3>Event Sourcing</h3>
 <br/>
 <ul>
 <li>Persist events vs. persist state</li>
+<li>Decouple conceptual model from how model is persisted</li>
 <li>Decouple storage of data from how it is consumed</li>
 <li>Historical record</li>
 </ul>
@@ -293,6 +287,7 @@ Security around reading data depends on what the data is<br/>
 </section>
 <section >
 <h3>CQRS</h3>
+<h5>Command Query Responsibility Segregation</h5>
 <p><img src="images/read-write-service.png" alt="API decomposition" /></p>
 <aside class="notes">
 This does not have anything to do with event sourcing<br/>
@@ -313,8 +308,10 @@ There is not necessarily a 1-1 relationship between commands and events<br/>
 You may take payment as part of the call to "Create Booking", but after the booking record has been created.<br/>
 </aside>
 </section>
-</section>
 <section >
+<h3>Reading Events</h3>
+<p><img src="images/read-event.png" alt="Command API" /></p>
+</section>
 <section >
 <h3>EventStore - Demo</h3>
 </section>
@@ -335,8 +332,13 @@ You may take payment as part of the call to "Create Booking", but after the book
 <p><img src="images/chaos.png" alt="Chaos" /></p>
 </section>
 <section >
+<p><img src="images/double-susbscriber.png" alt="Double Subscriber" /></p>
+</section>
+<section >
 <p><img src="images/boundedContexts.png" alt="Bounded Contexts" /></p>
 </section>
+<section >
+<h3>(More) Questions?</h3>
 </section>
 
 
