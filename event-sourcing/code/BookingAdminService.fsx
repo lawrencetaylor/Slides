@@ -33,9 +33,9 @@ module EventStore =
                 Data = eventData
             } |> Array.singleton
 
-    let private addEventAsync streamName body = 
+    let private addEventAsync host port streamName body = 
         Http.AsyncRequest(
-            "http://boot2docker:2113/streams/" + streamName,
+            sprintf "http://%s:%i/streams/%s" host port streamName,
             body = TextRequest body,
             httpMethod = HttpMethod.Post,
             headers = [ HttpRequestHeaders.ContentType "application/vnd.eventstore.events+json"] )
@@ -49,9 +49,9 @@ module EventStore =
         |> Seq.map(fun entry -> entry.Data)
         |> Seq.map(deserializeBookingEvent)
 
-    let  getEvents stream = 
+    let  getEvents host port stream = 
         Http.AsyncRequest(
-            sprintf "http://boot2docker:2113/streams/%s?embed=body" stream,
+            sprintf "http://%s:%i/streams/%s?embed=body" host port stream,
             httpMethod = HttpMethod.Get,
             headers = [ HttpRequestHeaders.Accept "application/vnd.eventstore.events+json"])
         |> Async.RunSynchronously
@@ -59,19 +59,19 @@ module EventStore =
             let (Text body) =  r.Body
             body |> extractEvents |> Seq.rev)
 
-    let publish streamName  = 
+    let publish host port streamName  = 
         PostEventRequest.create
         >> serialize
-        >> addEventAsync streamName
+        >> addEventAsync host port streamName
 
 
 module BookingAdministrator = 
 
     open BookingEvents
 
-    let saveEvent streamName event =
+    let saveEvent host port streamName event =
         (event |> GetEventName, event :> obj) 
-        |> EventStore.publish streamName
+        |> EventStore.publish host port streamName
         |> Async.RunSynchronously
         |> ignore
 
@@ -79,21 +79,24 @@ let toEventStoreStream id = sprintf "Booking-%i" id
 
 let saveAllMyBookingEvents id = 
     id 
-    |> BookingEventsDb.getBookingEvents
-    |> Seq.iter(BookingAdministrator.saveEvent (id |> toEventStoreStream))
+    |> BookingEventsDb.getBookingEvents 
+    |> Seq.iter(BookingAdministrator.saveEvent "boot2docker" 2113 (id |> toEventStoreStream))
 
 let financeModel id  = 
     id
     |> toEventStoreStream
-    |> EventStore.getEvents 
+    |> EventStore.getEvents "boot2docker" 2113
     |> Seq.fold(FinanceReport.financeBookingEventHandler) None
 
 let dispatchModel id = 
     id
     |> toEventStoreStream
-    |> EventStore.getEvents
+    |> EventStore.getEvents "boot2docker" 2113
     |> Seq.fold(DispatchReport.dispatchBookingEventHandler) None
 
+
+
+123 |> saveAllMyBookingEvents |> ignore
 
 123 |> financeModel |> printfn "Finance model is: %A" |> ignore
 123 |> dispatchModel |> printfn "Dispatch model is: %A" |> ignore

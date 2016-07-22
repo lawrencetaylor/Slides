@@ -26,6 +26,8 @@ let bookingStatus id =
     |> BookingEventsDb.getBookingEvents
     |> Seq.fold(dispatchBookingEventHandler) None
 
+printfn "Lastest booking status is %A" (bookingStatus 123)
+
 // Gets the booking status after "eventCount" events
 let bookingStatusAt eventCount id = 
     id
